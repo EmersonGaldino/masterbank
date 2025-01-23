@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AgO176mFfbW7TOnjikO5lj0RCrnhCh44FW9ASRuCG04=",
+  "Source": "master.bank.api",
+  "BasePath": "_content/master.bank.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
