@@ -2,5 +2,6 @@
 
 public class InfrastructureBaseConfig
 {
+    public string Teste { get; set; }
     
 }
