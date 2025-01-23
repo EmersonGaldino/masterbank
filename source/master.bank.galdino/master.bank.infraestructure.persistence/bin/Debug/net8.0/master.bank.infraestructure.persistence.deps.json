@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "master.bank.infraestructure.persistence/1.0.0": {
+        "runtime": {
+          "master.bank.infraestructure.persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "master.bank.infraestructure.persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

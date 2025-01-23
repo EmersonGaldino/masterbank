@@ -1,0 +1,12 @@
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\bin\Debug\net8.0\master.bank.domain.core.deps.json
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\bin\Debug\net8.0\master.bank.domain.core.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\bin\Debug\net8.0\master.bank.domain.core.pdb
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\master.bank.domain.core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\master.bank.domain.core.AssemblyInfoInputs.cache
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\master.bank.domain.core.AssemblyInfo.cs
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\master.bank.domain.core.csproj.CoreCompileInputs.cache
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\master.bank.domain.core.sourcelink.json
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\master.bank.domain.core.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\refint\master.bank.domain.core.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\master.bank.domain.core.pdb
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.domain.core\obj\Debug\net8.0\ref\master.bank.domain.core.dll

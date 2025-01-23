@@ -1,0 +1,12 @@
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\bin\Debug\net8.0\master.bank.infraestructure.persistence.deps.json
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\bin\Debug\net8.0\master.bank.infraestructure.persistence.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\bin\Debug\net8.0\master.bank.infraestructure.persistence.pdb
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\master.bank.infraestructure.persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\master.bank.infraestructure.persistence.AssemblyInfoInputs.cache
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\master.bank.infraestructure.persistence.AssemblyInfo.cs
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\master.bank.infraestructure.persistence.csproj.CoreCompileInputs.cache
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\master.bank.infraestructure.persistence.sourcelink.json
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\master.bank.infraestructure.persistence.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\refint\master.bank.infraestructure.persistence.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\master.bank.infraestructure.persistence.pdb
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.persistence\obj\Debug\net8.0\ref\master.bank.infraestructure.persistence.dll

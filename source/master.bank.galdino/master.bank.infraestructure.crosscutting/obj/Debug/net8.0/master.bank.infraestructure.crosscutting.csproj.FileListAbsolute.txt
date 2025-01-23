@@ -1,0 +1,12 @@
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\bin\Debug\net8.0\master.bank.infraestructure.crosscutting.deps.json
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\bin\Debug\net8.0\master.bank.infraestructure.crosscutting.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\bin\Debug\net8.0\master.bank.infraestructure.crosscutting.pdb
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\master.bank.infraestructure.crosscutting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\master.bank.infraestructure.crosscutting.AssemblyInfoInputs.cache
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\master.bank.infraestructure.crosscutting.AssemblyInfo.cs
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\master.bank.infraestructure.crosscutting.csproj.CoreCompileInputs.cache
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\master.bank.infraestructure.crosscutting.sourcelink.json
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\master.bank.infraestructure.crosscutting.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\refint\master.bank.infraestructure.crosscutting.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\master.bank.infraestructure.crosscutting.pdb
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.infraestructure.crosscutting\obj\Debug\net8.0\ref\master.bank.infraestructure.crosscutting.dll
