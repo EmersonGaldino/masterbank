@@ -7,8 +7,19 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="13.0.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.4"/>
+        <PackageReference Include="Serilog" Version="4.2.1-dev-02337" />
+        <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\master.bank.bootstrapper\master.bank.bootstrapper.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="models\viewsModel\" />
     </ItemGroup>
 
 </Project>

@@ -7,13 +7,37 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="configurations\cors\" />
-      <Folder Include="configurations\dependencyInjection\" />
-      <Folder Include="configurations\exceptions\" />
-      <Folder Include="configurations\logger\" />
-      <Folder Include="configurations\security\" />
-      <Folder Include="configurations\swagger\" />
       <Folder Include="filters\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.3.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.12" />
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.3.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+      <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="9.0.1" />
+      <PackageReference Include="Serilog" Version="4.2.1-dev-02337" />
+      <PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
+      <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+      <PackageReference Include="Serilog.Extensions.Hosting" Version="9.0.0" />
+      <PackageReference Include="Serilog.Formatting.Elasticsearch" Version="10.0.0" />
+      <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.1-dev-02317" />
+      <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="4.0.1-dev-00046" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+      <PackageReference Include="Serilog.Sinks.Debug" Version="3.0.0" />
+      <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="9.0.0" />
+      <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.2.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.2.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="7.2.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="7.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\master.bank.infraestructure.crosscutting\master.bank.infraestructure.crosscutting.csproj" />
+      <ProjectReference Include="..\master.bank.utils\master.bank.utils.csproj" />
     </ItemGroup>
 
 </Project>
