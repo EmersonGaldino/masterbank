@@ -39,8 +39,8 @@ public class RouteServiceTests
         // Arrange
         var routes = new List<RouteEntity>
         {
-            new RouteEntity { Id = 1, Origin = "GRU", Destiny = "BRC", Value = 10.0m },
-            new RouteEntity { Id = 2, Origin = "BRC", Destiny = "SCL", Value = 5.0m }
+            new() { Id = 1, Origin = "GRU", Destiny = "BRC", Value = 10.0m },
+            new() { Id = 2, Origin = "BRC", Destiny = "SCL", Value = 5.0m }
         };
 
         _repositoryMock.Setup(r => r.GetAll())
@@ -61,13 +61,13 @@ public class RouteServiceTests
         // Arrange
         var routes = new List<RouteEntity>
         {
-            new RouteEntity { Id = 1, Origin = "GRU", Destiny = "BRC", Value = 10.0m },
-            new RouteEntity { Id = 2, Origin = "BRC", Destiny = "SCL", Value = 5.0m },
-            new RouteEntity { Id = 3, Origin = "GRU", Destiny = "CDG", Value = 75.0m },
-            new RouteEntity { Id = 4, Origin = "GRU", Destiny = "SCL", Value = 20.0m },
-            new RouteEntity { Id = 5, Origin = "GRU", Destiny = "ORL", Value = 56.0m },
-            new RouteEntity { Id = 6, Origin = "ORL", Destiny = "CDG", Value = 5.0m },
-            new RouteEntity { Id = 7, Origin = "SCL", Destiny = "ORL", Value = 20.0m }
+            new()  { Id = 1, Origin = "GRU", Destiny = "BRC", Value = 10.0m },
+            new() { Id = 2, Origin = "BRC", Destiny = "SCL", Value = 5.0m },
+            new() { Id = 3, Origin = "GRU", Destiny = "CDG", Value = 75.0m },
+            new() { Id = 4, Origin = "GRU", Destiny = "SCL", Value = 20.0m },
+            new() { Id = 5, Origin = "GRU", Destiny = "ORL", Value = 56.0m },
+            new() { Id = 6, Origin = "ORL", Destiny = "CDG", Value = 5.0m },
+            new() { Id = 7, Origin = "SCL", Destiny = "ORL", Value = 20.0m }
         };
 
         _repositoryMock.Setup(r => r.GetAll())
