@@ -116,7 +116,7 @@ Este módulo contém funções auxiliares e classes utilitárias.
 - **Linguagem:** C# (.NET)
 - **Frameworks principais:**
     - ASP.NET Core para desenvolvimento de API.
-    - Entity Framework Core para persistência de dados.
+    - Dapper para persistência de dados.
 - **Testes:**
     - xUnit, NUnit ou MSTest.
 - **Documentação:**
