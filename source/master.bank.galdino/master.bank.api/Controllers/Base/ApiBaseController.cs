@@ -24,7 +24,7 @@ public abstract class ApiBaseController : ControllerBase
     private void AddErrors(string message, int statusCode) =>
         errors.Add(new KeyValuePair<string, int>(message, statusCode));
 
-    protected async Task<IActionResult> AutoResult<T>(Func<Task<T>> func)
+    protected async Task<IActionResult> EventResult<T>(Func<Task<T>> func)
     {
         try
         {

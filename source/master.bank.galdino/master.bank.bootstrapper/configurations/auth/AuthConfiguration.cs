@@ -1,5 +1,5 @@
-﻿using System.Reflection.Metadata;
-using System.Text;
+﻿using System.Text;
+using master.bank.bootstrapper.configurations.constants;
 using master.bank.bootstrapper.configurations.security;
 using master.bank.infraestructure.crosscutting.infraestructure.Token;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -50,9 +50,8 @@ public static class AuthConfiguration
 
             auth.AddPolicy("MasterBankService", policy =>
             {
-                //TODO colocar um ID cliente se tiver
-                // policy.RequireAssertion(context =>
-                //     context.User.HasClaim(c => c.Type == Constant.ID));
+                 policy.RequireAssertion(context =>
+                     context.User.HasClaim(c => c.Type == Constant.ID));
             });
         });
         services.AddMemoryCache();

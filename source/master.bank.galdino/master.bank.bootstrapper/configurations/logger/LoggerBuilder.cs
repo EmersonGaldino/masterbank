@@ -24,7 +24,7 @@ public class LoggerBuilder
             .Enrich.WithMachineName()
             .WriteTo.Debug()
             .WriteTo.Console()
-            .WriteTo.Elasticsearch(ConfigureElasticSink(configuration))
+            // .WriteTo.Elasticsearch(ConfigureElasticSink(configuration))
             .Enrich.WithProperty("Environment", environment)
             .ReadFrom.Configuration(configuration)
             .CreateLogger();

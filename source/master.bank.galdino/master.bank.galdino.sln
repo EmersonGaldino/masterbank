@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "master.bank.application", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "master.bank.infraestructure.crosscutting", "master.bank.infraestructure.crosscutting\master.bank.infraestructure.crosscutting.csproj", "{B326AAF4-D240-4899-A2A9-0FF2C5A4EF17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "master.bank.test", "master.bank.test\master.bank.test.csproj", "{553E1F34-C59D-4E08-802F-A0F2D30D8216}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{B326AAF4-D240-4899-A2A9-0FF2C5A4EF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B326AAF4-D240-4899-A2A9-0FF2C5A4EF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B326AAF4-D240-4899-A2A9-0FF2C5A4EF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{553E1F34-C59D-4E08-802F-A0F2D30D8216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553E1F34-C59D-4E08-802F-A0F2D30D8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553E1F34-C59D-4E08-802F-A0F2D30D8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553E1F34-C59D-4E08-802F-A0F2D30D8216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

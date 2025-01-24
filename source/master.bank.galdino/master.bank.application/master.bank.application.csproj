@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="obj\Debug\net8.0\master.b.13A2FEE4.Up2Date" />
+      <Content Include="obj\Debug\net8.0\master.bank.application.csproj.AssemblyReference.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\master.bank.domain.core\master.bank.domain.core.csproj" />
+    </ItemGroup>
+
 </Project>

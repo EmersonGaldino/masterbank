@@ -11,7 +11,8 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
-var configuration = builder.Configuration;
+var provider = services.BuildServiceProvider();
+var configuration = provider.GetRequiredService<IConfiguration>();
 
 // Add services to the container.
 builder.Host.UseSerilog();
@@ -30,9 +31,9 @@ AuthConfiguration.Register(services, configuration);
 LoggerBuilder.ConfigureLogging();
 
 services.AddProtectedControllers();
-services.AddServices(configuration); // Injetar servicos
 services.AddCors();
 services.AddSwaggerService();
+services.AddServices(configuration); // Injetar servicos
 
 var app = builder.Build();
 
@@ -43,6 +44,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+
 app.UseHttpsRedirection();
 app.UseCorsConfig();
 app.UseAuthorization();
@@ -50,6 +53,7 @@ app.UseAuthentication();
 app.UseRouting();
 app.UseSwaggerConfig();
 app.UseEndpointsConfig();
+app.UseHttpsRedirection();
 
 app.Run();
 

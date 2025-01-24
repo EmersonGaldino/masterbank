@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="obj\Debug\net8.0\master.b.9DDABDE3.Up2Date" />
+      <Content Include="obj\Debug\net8.0\master.bank.infraestructure.crosscutting.csproj.AssemblyReference.cache" />
+    </ItemGroup>
+
 </Project>

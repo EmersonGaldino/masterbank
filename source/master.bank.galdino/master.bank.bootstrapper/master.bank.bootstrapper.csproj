@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="filters\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.3.0" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.12" />
       <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
@@ -37,6 +33,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\master.bank.infraestructure.crosscutting\master.bank.infraestructure.crosscutting.csproj" />
+      <ProjectReference Include="..\master.bank.infraestructure.persistence\master.bank.infraestructure.persistence.csproj" />
       <ProjectReference Include="..\master.bank.utils\master.bank.utils.csproj" />
     </ItemGroup>
 

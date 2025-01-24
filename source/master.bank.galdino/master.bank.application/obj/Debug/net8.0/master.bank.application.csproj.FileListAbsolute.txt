@@ -10,3 +10,7 @@ E:\Particular\masterbank\source\master.bank.galdino\master.bank.application\obj\
 E:\Particular\masterbank\source\master.bank.galdino\master.bank.application\obj\Debug\net8.0\refint\master.bank.application.dll
 E:\Particular\masterbank\source\master.bank.galdino\master.bank.application\obj\Debug\net8.0\master.bank.application.pdb
 E:\Particular\masterbank\source\master.bank.galdino\master.bank.application\obj\Debug\net8.0\ref\master.bank.application.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.application\bin\Debug\net8.0\master.bank.domain.core.dll
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.application\bin\Debug\net8.0\master.bank.domain.core.pdb
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.application\obj\Debug\net8.0\master.bank.application.csproj.AssemblyReference.cache
+E:\Particular\masterbank\source\master.bank.galdino\master.bank.application\obj\Debug\net8.0\master.b.13A2FEE4.Up2Date
