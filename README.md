@@ -132,7 +132,7 @@ Este módulo contém funções auxiliares e classes utilitárias.
  - Esse projeto esta com um banco online, por tanto apenas rodar o projeto dentro de um ambiente com o .net core 8 instalado ja deve funcionar 
 
 ### Pré-requisitos
-- .NET SDK instalado (versão mínima recomendada: `6.0`).
+- .NET SDK instalado (versão mínima recomendada: `8.0`).
   - Ferramentas como Visual Studio ou Visual Studio Code.
 
 
