@@ -1,10 +1,14 @@
 ﻿
 using master.bank.bootstrapper.filters;
+using master.bank.domain.core.repository.Interface.pdf;
 using master.bank.domain.core.repository.Interface.route;
+using master.bank.domain.core.service.Interface.pdf;
 using master.bank.domain.core.service.Interface.route;
+using master.bank.domain.core.service.pdf;
 using master.bank.domain.core.service.route;
 using master.bank.infraestructure.crosscutting.infraestructure.baseConfig;
 using master.bank.infraestructure.persistence.configuration.uow;
+using master.bank.infraestructure.persistence.repository.pdf;
 using master.bank.infraestructure.persistence.repository.route;
 using master.bank.utils.shared;
 using Microsoft.AspNetCore.Mvc;
@@ -46,11 +50,12 @@ public static class DependencyInjectionsExtension
         #region .::Service
 
         services.AddScoped<IRouteService, RouteService>();
+        services.AddScoped<IPdfService, PdfService>();
         #endregion
         
         #region .::Repository
         services.AddScoped<IRouteRepository, RouteRepository>();
-        
+        services.AddScoped<IPdfRepository, PdfRepository>();
         #endregion
         
         
