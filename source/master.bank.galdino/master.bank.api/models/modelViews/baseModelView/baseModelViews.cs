@@ -1,4 +1,6 @@
-﻿namespace master.bank.api.models.modelViews.baseModelView;
+﻿using System;
+
+namespace master.bank.api.models.modelViews.baseModelView;
 
 public class baseModelViews
 {

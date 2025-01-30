@@ -1,7 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
 using System.Text;
+using System.Threading.Tasks;
 using master.bank.api.models.Base;
 using master.bank.bootstrapper.configurations.exceptions;
 using Microsoft.AspNetCore.Mvc;

@@ -7,6 +7,10 @@ using master.bank.bootstrapper.configurations.dependencyInjection;
 using master.bank.bootstrapper.configurations.logger;
 using master.bank.bootstrapper.configurations.security;
 using master.bank.bootstrapper.configurations.swagger;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);

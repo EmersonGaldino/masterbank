@@ -1,4 +1,6 @@
-﻿namespace master.bank.api.models.Base;
+﻿using System.Collections.Generic;
+
+namespace master.bank.api.models.Base;
 
 public sealed class BadResponse : BaseResponse
 {
