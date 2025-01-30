@@ -50,6 +50,7 @@ public class PdfController : ApiBaseController
         var newFileName = $"{extractedDate}_{file.FileName}";
 
         var folderPath = Path.Combine(_storagePath, extractedDate);
+        Console.WriteLine($@"Pasta do usuario: {folderPath}");
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
