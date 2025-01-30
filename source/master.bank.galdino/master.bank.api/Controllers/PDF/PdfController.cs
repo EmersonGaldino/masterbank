@@ -19,7 +19,7 @@ public class PdfController : ApiBaseController
 
     public PdfController(IConfiguration configuration)
     {
-        _storagePath = configuration["StoragePath"];
+        _storagePath =  Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Documents/Reports");;
     }
     
     [HttpPost("upload")]
