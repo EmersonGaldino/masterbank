@@ -37,5 +37,5 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore  source/master.bank.galdino/master.bank.galdino.sln # Você pode repetir o restore, ou se tiver cache, pode usar o cache
     - name: Run Tests
-      run: dotnet test source/master.bank.galdino/master.bank.test/master.bank.test.csproj --no-build --verbosity normal
+      run: dotnet test source/master.bank.galdino/master.bank.test/master.bank.test.csproj 
 
