@@ -20,7 +20,7 @@ jobs:
       with:
         dotnet-version: 8.0
     - name: Restore dependencies
-      run: dotnet restore source/master.bank.galdino/master.bank.api
+      run: dotnet restore source/master.bank.galdino.sln
     - name: Build
       run: dotnet build 
 
