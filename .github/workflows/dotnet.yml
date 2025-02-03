@@ -22,7 +22,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore source/master.bank.galdino/master.bank.galdino.sln
     - name: Build
-      run: dotnet build 
+      run: dotnet build source/master.bank.galdino/master.bank.galdino.sln
 
   test:
     runs-on: ubuntu-latest
