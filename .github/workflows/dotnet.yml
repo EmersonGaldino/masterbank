@@ -35,7 +35,7 @@ jobs:
       with:
         dotnet-version: 8.0
     - name: Restore dependencies
-      run: dotnet restore  # Você pode repetir o restore, ou se tiver cache, pode usar o cache
+      run: dotnet restore  source/master.bank.galdino/master.bank.galdino.sln # Você pode repetir o restore, ou se tiver cache, pode usar o cache
     - name: Run Tests
       run: dotnet test --no-build --verbosity normal
 
