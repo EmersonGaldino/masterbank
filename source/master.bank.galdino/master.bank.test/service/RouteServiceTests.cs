@@ -76,9 +76,10 @@ public class RouteServiceTests
         // Act
         var result = await _routeService.GetRote("GRU", "CDG");
 
+        
         // Assert
         Assert.NotNull(result);
-        Assert.Equal("Melhor rota: GRU - BRC - SCL - ORL - CDG ao custo de $40,00", result);
+        Assert.Equal("Melhor rota: GRU - BRC - SCL - ORL - CDG ao custo de $40.00", result);
         _repositoryMock.Verify(r => r.GetAll(), Times.Once);
     }
 
