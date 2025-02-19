@@ -1,5 +1,27 @@
-@master.bank.api_HostAddress = http://localhost:5000
+
+POST https://localhost:7154/api/Route
+accept: text/plain
+Content-Type: application/json
+
+{
+  "origin": "GRU",
+  "destiny": "RJ",
+  "value": 32
+}
+
+###
+
+@master.bank.api_HostAddress = https://localhost:7154
+# curl -X 'GET' 
+#  'https://localhost:7154/api/Route?origin=GR&destiny=RJ' 
+#  -H 'accept: text/plain'
+GET https://localhost:7154/api/Route?origin=GRU&destiny=RJ
+accept: text/plain
+
+###
+
+
 ### GET request with a header
-GET {{master.bank.api_HostAddress}}/api/Route?origin=GRU&destiny=SCL
+GET https://localhost:7154/api/Route?origin=GRU&destiny=SCL
 Accept: application/json
 

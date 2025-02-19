@@ -18,6 +18,7 @@ public class RouteController : ApiBaseController
 {
     private IRouteService routeAppService => GetService<IRouteService>();
     private IMapper mapper => GetService<IMapper>();
+    
     [HttpGet]
     [SwaggerOperation(Summary = "Buscar rotas",
         Description = "Busca todas as rotas cadastradas")]
