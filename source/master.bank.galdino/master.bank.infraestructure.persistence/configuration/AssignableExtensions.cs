@@ -1,3 +1,6 @@
+using System;
+using System.Linq;
+
 namespace master.bank.infraestructure.persistence.configuration;
 
 public static class AssignableExtensions

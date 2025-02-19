@@ -1,4 +1,6 @@
-﻿namespace master.bank.bootstrapper.configurations.exceptions;
+﻿using System;
+
+namespace master.bank.bootstrapper.configurations.exceptions;
 
 public class RequestException : Exception
 {

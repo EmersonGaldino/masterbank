@@ -1,4 +1,5 @@
-﻿using master.bank.utils.autoMapper;
+﻿using System;
+using master.bank.utils.autoMapper;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace master.bank.bootstrapper.configurations.autoMapper;

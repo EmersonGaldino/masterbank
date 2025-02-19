@@ -1,4 +1,7 @@
 ﻿
+using System;
+using Microsoft.Extensions.DependencyInjection;
+
 namespace master.bank.api.configuration.autoMapper;
 
 public static class AddAutoMapperModelViewConfig

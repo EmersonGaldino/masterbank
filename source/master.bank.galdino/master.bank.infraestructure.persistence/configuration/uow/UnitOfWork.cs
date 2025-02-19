@@ -1,3 +1,4 @@
+using System;
 using System.Data;
 using master.bank.domain.core.generic;
 using Npgsql;

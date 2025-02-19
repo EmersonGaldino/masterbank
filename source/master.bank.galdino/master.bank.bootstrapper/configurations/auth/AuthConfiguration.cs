@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using master.bank.bootstrapper.configurations.constants;
 using master.bank.bootstrapper.configurations.security;
 using master.bank.infraestructure.crosscutting.infraestructure.Token;
