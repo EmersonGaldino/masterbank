@@ -1,3 +1,11 @@
+# curl -X 'GET' 
+#  'https://localhost:7154/api/Route/all' 
+#  -H 'accept: text/plain'
+GET https://localhost:7154/api/Route/all
+accept: text/plain
+
+###
+
 
 POST https://localhost:7154/api/Route
 accept: text/plain

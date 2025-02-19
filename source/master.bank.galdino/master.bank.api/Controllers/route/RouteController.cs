@@ -34,6 +34,19 @@ public class RouteController : ApiBaseController
             Data = await routeAppService.GetRote(origin, destiny)
         });
     
+    [HttpGet("all")]
+    [SwaggerOperation(Summary = "Buscar todas as rotas",
+        Description = "Busca todas as rotas cadastradas")]
+    [SwaggerResponse(200, "Sucesso.", typeof(SuccessResponse<BaseModelView<List<RouteModelView>>>))]
+    [SwaggerResponse(400, "Não localiamos dados na nossa base", typeof(BadResponse))]
+    [SwaggerResponse(500, "Erro interno no servidor.", typeof(BadResponse))]
+    public async Task<IActionResult> GetAll() => await EventResult(async () =>
+        new BaseModelView<List<RouteModelView>>
+        {
+            Message = "Loading routes success", 
+            Data = mapper.Map<List<RouteModelView>>(await routeAppService.GetAll()) 
+        });
+    
     [HttpPost]
     [SwaggerOperation(Summary = "Criar rota",
         Description = "Criar uma nova rota")]
